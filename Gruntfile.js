@@ -9,18 +9,43 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
 
   var reloadPort = 35729, files;
-
+  var yeomanConfig = {
+      app: 'app',
+      dist: 'dist'
+  };
   grunt.initConfig({
+    yeoman: yeomanConfig,
     pkg: grunt.file.readJSON('package.json'),
     develop: {
       server: {
         file: 'app.js'
       }
     },
+    compass: {
+      options: {
+        sassDir: '<%= yeoman.app %>/styles',
+        cssDir: 'public/css',
+        imagesDir: '<%= yeoman.app %>/images',
+        javascriptsDir: '<%= yeoman.app %>/scripts',
+        fontsDir: '<%= yeoman.app %>/styles/fonts',
+        importPath: 'app/bower_components',
+        relativeAssets: true
+      },
+      dist: {},
+      server: {
+        options: {
+          debugInfo: true
+        }
+      }
+    },
     watch: {
       options: {
         nospawn: true,
         livereload: reloadPort
+      },
+      compass: {
+        files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
+        tasks: ['compass']
       },
       js: {
         files: [
@@ -55,5 +80,5 @@ module.exports = function (grunt) {
     }, 500);
   });
 
-  grunt.registerTask('default', ['develop', 'watch']);
+  grunt.registerTask('default', 'compass', ['develop', 'watch']);
 };
