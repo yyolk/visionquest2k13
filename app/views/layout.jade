@@ -6,8 +6,12 @@ html(lang='en')
     title= title
     block css
       link(rel='stylesheet', href='/css/main.css')
-    unless env.production
-      block js
+
+    block js
+      script(src='/components/requirejs/require.js', data-main='/js/init')
+      unless env.production
         script(src='http://localhost:35729/livereload.js')
+
   body
     block content
+

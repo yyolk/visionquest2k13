@@ -2,6 +2,17 @@ extends ../layout
 
 block content
   .container
-    #hero
-      h1 Visionquest
-      h2 2013
+    .page-header
+      h1#vision Visionquest
+        small= 2013
+      p some text
+block append js
+  script.
+    function start(){
+      setInterval(function(){
+        jQuery("#vision").css('color', 'rgb('+rc()+','+rc()+','+rc()+')');
+      }, 666);
+    }
+    function rc(){
+      return Math.floor(Math.random()*255);
+    }

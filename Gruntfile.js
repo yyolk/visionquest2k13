@@ -11,7 +11,7 @@ module.exports = function (grunt) {
   var reloadPort = 35729, files;
   var yeomanConfig = {
       app: 'app',
-      dist: 'dist'
+      dist: 'public'
   };
   grunt.initConfig({
     yeoman: yeomanConfig,
@@ -25,10 +25,10 @@ module.exports = function (grunt) {
       options: {
         sassDir: '<%= yeoman.app %>/styles',
         cssDir: 'public/css',
-        imagesDir: '<%= yeoman.app %>/images',
-        javascriptsDir: '<%= yeoman.app %>/scripts',
+        imagesDir: '<%= yeoman.app %>/img',
+        javascriptsDir: 'public/js',
         fontsDir: '<%= yeoman.app %>/styles/fonts',
-        importPath: 'app/bower_components',
+        importPath: 'public/components',
         relativeAssets: true
       },
       dist: {},
@@ -60,6 +60,68 @@ module.exports = function (grunt) {
         options: { livereload: reloadPort }
       }
     }
+    // requirejs: {
+    //   compile:{
+    //     options:{
+    //       baseUrl: '<%= yeoman.app %>/scripts/',
+    //       name: 'visionquest',
+    //       create: true,
+    //       mainConfigFile : '<%= yeoman.app %>/scripts/init.js',
+    //       out: "main.js",
+
+    //     }
+    //   },
+    //   dist: {
+    //     // Options: https://github.com/jrburke/r.js/blob/master/build/example.build.js
+    //     options: {
+    //       // `name` and `out` is set by grunt-usemin
+    //       baseUrl: 'app/scripts',
+
+    //       optimize: 'uglify',
+    //       dir: "public/js",
+    //        modules: [
+    //               //Just specifying a module name means that module will be converted into
+    //           //a built file that contains all of its dependencies. If that module or any
+    //           //of its dependencies includes i18n bundles, they may not be included in the
+    //           //built file unless the locale: section is set above.
+    //           {
+    //               name: "visionquest",
+
+    //               //create: true can be used to create the modul layer at the given
+    //               //name, if it does not already exist in the source location. If
+    //               //there is a module at the source location with this name, then
+    //               //create: true is superfluous.
+    //               create: true,
+    //           }
+    //         ],
+    //       paths: {
+    //       },
+    //       // TODO: Figure out how to make sourcemaps work with grunt-usemin
+    //       // https://github.com/yeoman/grunt-usemin/issues/30
+    //       //generateSourceMaps: true,
+    //       // required to support SourceMaps
+    //       // http://requirejs.org/docs/errors.html#sourcemapcomments
+    //       preserveLicenseComments: false,
+    //       useStrict: true,
+    //       wrap: true,
+    //       //uglify2: {} // https://github.com/mishoo/UglifyJS2
+    //       // pragmasOnSave: {
+    //       //   //removes Handlebars.Parser code (used to compile template strings) set
+    //       //   //it to `false` if you need to parse template strings even after build
+    //       //   excludeHbsParser : true,
+    //       //   // kills the entire plugin set once it's built.
+    //       //   excludeHbs: true,
+    //       //   // removes i18n precompiler, handlebars and json2
+    //       //   excludeAfterBuild: true
+    //       // }
+    //     }
+    //   },
+    // },
+    // bower: {
+    //   target: {
+    //       rjsConfig: '<%= yeoman.app %>/scripts/init.js'
+    //   }
+    // }
   });
 
   grunt.config.requires('watch.js.files');
