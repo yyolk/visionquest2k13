@@ -9,7 +9,7 @@ module.exports = function(app, config) {
     app.set('views', config.root + '/app/views');
     app.set('view engine', 'jade');
     app.use(function(req, res, next){
-        res.locals.env = {production: config.env=='production' ? true : '' };
+        res.locals.env = {production: config.env=='production' ? true : false };
         next();
     });
     app.use(express.favicon(config.root + '/public/img/favicon.ico'));
