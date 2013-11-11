@@ -1,6 +1,7 @@
 var path = require('path'),
     rootPath = path.normalize(__dirname + '/..'),
-    env = process.env.NODE_ENV || 'development';
+    env = process.env.NODE_ENV || 'development',
+    port = process.env.PORT || '3000';
 
 var config = {
   development: {
@@ -8,7 +9,7 @@ var config = {
     app: {
       name: 'visionquest2k13'
     },
-    port: 3000,
+    port: port,
     db: 'mongodb://localhost/visionquest2k13-development'
   },
 
@@ -17,7 +18,7 @@ var config = {
     app: {
       name: 'visionquest2k13'
     },
-    port: 3000,
+    port: port,
     db: 'mongodb://localhost/visionquest2k13-test'
   },
 
@@ -26,8 +27,8 @@ var config = {
     app: {
       name: 'visionquest2k13'
     },
-    port: 3000,
-    db: 'mongodb://localhost/visionquest2k13-production'
+    port: port,
+    db: process.env.MONGOLAB_URI
   }
 };
 
