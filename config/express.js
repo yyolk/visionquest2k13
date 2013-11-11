@@ -8,6 +8,10 @@ module.exports = function(app, config) {
     app.set('env', config.env)
     app.set('views', config.root + '/app/views');
     app.set('view engine', 'jade');
+    app.use(function(req, res, next){
+        res.locals.env = {production: config.env=='production' ? true : '' };
+        next();
+    });
     app.use(express.favicon(config.root + '/public/img/favicon.ico'));
     app.use(express.logger('dev'));
     app.use(express.bodyParser());
