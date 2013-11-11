@@ -10,6 +10,7 @@ var config = {
       name: 'visionquest2k13'
     },
     port: port,
+    development: true,
     db: 'mongodb://localhost/visionquest2k13-development'
   },
 
@@ -28,6 +29,7 @@ var config = {
       name: 'visionquest2k13'
     },
     port: port,
+    production: true,
     db: process.env.MONGOLAB_URI
   }
 };
