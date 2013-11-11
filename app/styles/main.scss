@@ -1,6 +1,31 @@
 @import 'sass-bootstrap/lib/bootstrap';
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 
 .hero-unit {
     margin: 50px auto 0 auto;
     width: 400px;
+}
+
+* {
+  font-family: "Arimo";
+}
+
+h1 {
+  text-transform: uppercase;
+
+}
+.colHeader hr{
+  border: 6px black solid;
+  width:10%;
+  text-align:left;
+  position:relative;
+  left:-45%;
+}
+.colHeader a {
+  &:hover, &:active, &:visited, &:link{
+    
+    text-decoration: none;
+    color: black;
+  }
+  color: black;
 }
