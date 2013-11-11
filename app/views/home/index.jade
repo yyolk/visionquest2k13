@@ -6,7 +6,7 @@ block content
       .col-md-4
         #eventInfoCollapse.colHeader
           hr
-          a(data-toggle="collapse", data-parent="#eventInfoCollapse", href="#eventInfoCollapseData")
+          a.collapsed(data-toggle="collapse", href="#eventInfoCollapseData")
             h1
               |DINCA 
               br
@@ -14,23 +14,29 @@ block content
               br
               |2013
           hr
-          #eventInfoCollapseData.collapse
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quasi rem ea praesentium et! Cupiditate, qui, quibusdam cumque quaerat magnam dolore aut totam optio neque odio veritatis consequuntur iste eligendi!    
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quod, consequatur, accusantium nemo necessitatibus facilis voluptatibus asperiores sunt debitis iure numquam dolorum eum odit ullam doloribus accusamus eius velit repudiandae.
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, amet, pariatur nam nisi velit quisquam asperiores labore unde facilis inventore. Laboriosam, consectetur, aspernatur deleniti laudantium nesciunt saepe atque velit nobis.
-      .col-md-4
+          #eventInfoCollapseData.collapse.panel.panel-collapse
+            .row
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quasi rem ea praesentium et! Cupiditate, qui, quibusdam cumque quaerat magnam dolore aut totam optio neque odio veritatis consequuntur iste eligendi!    
+              img(src="http://placehold.it/650x500/00ff00/ffffff")
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quod, consequatur, accusantium nemo necessitatibus facilis voluptatibus asperiores sunt debitis iure numquam dolorum eum odit ullam doloribus accusamus eius velit repudiandae.
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, amet, pariatur nam nisi velit quisquam asperiores labore unde facilis inventore. Laboriosam, consectetur, aspernatur deleniti laudantium nesciunt saepe atque velit nobis.
+      .col-md-4#days
         #thursdayInfoCollapse.colHeader
           hr
-          a(data-toggle="collapse", data-parent="#thursdayInfoCollapse", href="#thursdayInfoCollapseData")
+          a.collapsed(data-toggle="collapse", href="#thursdayInfoCollapseData")
             h1 Thursday 21
           hr
           #thursdayInfoCollapseData.collapse
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quasi rem ea praesentium et! Cupiditate, qui, quibusdam cumque quaerat magnam dolore aut totam optio neque odio veritatis consequuntur iste eligendi!    
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quod, consequatur, accusantium nemo necessitatibus facilis voluptatibus asperiores sunt debitis iure numquam dolorum eum odit ullam doloribus accusamus eius velit repudiandae.
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, amet, pariatur nam nisi velit quisquam asperiores labore unde facilis inventore. Laboriosam, consectetur, aspernatur deleniti laudantium nesciunt saepe atque velit nobis.
+            .row
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quasi rem ea praesentium et! Cupiditate, qui, quibusdam cumque quaerat magnam dolore aut totam optio neque odio veritatis consequuntur iste eligendi!    
+              img(src="http://placehold.it/350x150/00ff00/ffffff")
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quod, consequatur, accusantium nemo necessitatibus facilis voluptatibus asperiores sunt debitis iure numquam dolorum eum odit ullam doloribus accusamus eius velit repudiandae.
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, amet, pariatur nam nisi velit quisquam asperiores labore unde facilis inventore. Laboriosam, consectetur, aspernatur deleniti laudantium nesciunt saepe atque velit nobis.
+              img(src="http://placehold.it/350x150/00ff00/ffffff")
+
         #fridayInfoCollapse.colHeader
           hr
-          a(data-toggle="collapse", data-parent="#fridayInfoCollapse", href="#fridayInfoCollapseData")
+          a.collapsed(data-toggle="collapse", href="#fridayInfoCollapseData")
             h1 Friday 22
           hr
           #fridayInfoCollapseData.collapse
@@ -39,7 +45,7 @@ block content
             p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ab, illo, in repellat commodi similique optio ipsum porro quidem repudiandae explicabo magnam. Numquam, voluptate magnam architecto vero pariatur quisquam explicabo!
         #saturdayInfoCollapse.colHeader
           hr
-          a(data-toggle="collapse", data-parent="#saturdayInfoCollapse", href="#saturdayInfoCollapseData")
+          a.collapsed(data-toggle="collapse", href="#saturdayInfoCollapseData")
             h1 Saturday 23
           hr
           #saturdayInfoCollapseData.collapse
@@ -50,7 +56,7 @@ block content
       .col-md-4
         #thirdColumnCollapseFirst.colHeader
           hr
-          a(data-toggle="collapse", data-parent="#thirdColumnCollapseFirst", href="#thirdColumnCollapseFirstData")
+          a.collapsed(data-toggle="collapse", href="#thirdColumnCollapseFirstData")
             h1 NOV. 21-23 MANA STUDIOS
           hr
           #thirdColumnCollapseFirstData.collapse
@@ -63,9 +69,7 @@ block content
 block append js
   script.
     function start(){
-      setInterval(function(){
-        jQuery("#vision").css('color', 'rgb('+rc()+','+rc()+','+rc()+')');
-      }, 666);
+      // var all = jQuery("#days .colHeader");
     }
     function rc(){
       return Math.floor(Math.random()*255);
