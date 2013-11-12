@@ -7665,16 +7665,21 @@ h1 {
 }
 
 /* line 34, ../../app/styles/main.scss */
-.colHeader img {
+img {
+  width: 100%;
+}
+
+/* line 38, ../../app/styles/main.scss */
+.colHeader {
   overflow: hidden;
 }
 
-/* line 39, ../../app/styles/main.scss */
+/* line 42, ../../app/styles/main.scss */
 a h1 {
   text-decoration: line-through;
 }
 
-/* line 43, ../../app/styles/main.scss */
+/* line 46, ../../app/styles/main.scss */
 a.collapsed h1 {
   text-decoration: none;
 }
