@@ -7664,12 +7664,17 @@ h1 {
   color: black;
 }
 
-/* line 33, ../../app/styles/main.scss */
+/* line 34, ../../app/styles/main.scss */
+.colHeader img {
+  overflow: hidden;
+}
+
+/* line 39, ../../app/styles/main.scss */
 a h1 {
   text-decoration: line-through;
 }
 
-/* line 37, ../../app/styles/main.scss */
+/* line 43, ../../app/styles/main.scss */
 a.collapsed h1 {
   text-decoration: none;
 }
