@@ -1,5 +1,7 @@
 extends ../layout
 
+
+
 block content
   .container
     .row
@@ -16,7 +18,7 @@ block content
           hr
         #eventInfoCollapseData.collapse.in
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, minima, molestias, illum quae cum quia culpa expedita sint beatae sunt harum aliquid praesentium iusto dolores quasi. Officiis ea quidem libero!
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptates, ex, sapiente sed officiis veritatis aperiam nisi placeat earum nulla dolore accusantium amet dicta aut cupiditate aliquam aspernatur porro accusamus.
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptates, ex, sapiente sed officiis veritatis aperiam nisi placeat earum nulla dolore accusantium amet dicta aut cupiditate aliquam aspernatur porro accusamus.    
       .col-md-4.panelll#days
         #thursdayInfoCollapse.colHeader
           hr
@@ -30,10 +32,8 @@ block content
               p= event.description
               h4= event.time
               each piece in event.pieces
-                h3
-                  a(href=piece.homepage)= piece.artist
-                p
-                  strong= piece.title
+                h3: a(href=piece.homepage)= piece.artist
+                p: strong= piece.title
                 img(src=piece.image, class="img-responsive")
                 hr
         #fridayInfoCollapse.colHeader
@@ -48,10 +48,8 @@ block content
               p= event.description
               h4= event.time
               each piece in event.pieces
-                h3
-                  a(href=piece.homepage)= piece.artist
-                p
-                  strong= piece.title
+                h3: a(href=piece.homepage)= piece.artist
+                p: strong= piece.title
         #saturdayInfoCollapse.colHeader
           hr
           a.collapsed(data-toggle="collapse", href="#saturdayInfoCollapseData")
@@ -64,15 +62,13 @@ block content
               p= event.description
               h4= event.time
               each piece in event.pieces
-                h3
-                  a(href=piece.homepage)= piece.artist
-                p
-                  strong= piece.title
+                h3: a(href=piece.homepage)= piece.artist
+                p: strong= piece.title
       .col-md-4.panelll
         #thirdColumnCollapseFirst.colHeader
           hr
           a.collapsed(data-toggle="collapse", href="#thirdColumnCollapseFirstData")
-            h1 NOV. 21-23 MANA STUDIOS
+            h1 NOV. 21-23 MANACA STUDIOS
           hr
         #thirdColumnCollapseFirstData.collapse
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quasi rem ea praesentium et! Cupiditate, qui, quibusdam cumque quaerat magnam dolore aut totam optio neque odio veritatis consequuntur iste eligendi!    
