@@ -1,12 +1,13 @@
 var mongoose = require('mongoose'),
   Schema = mongoose.Schema;
+  // PieceSchema = require('piece');
 
 var PieceSchema = new Schema({
   artist : String,
   title : String,
   homepage : String,
   image : String,
-  videoInfo : String,
+  videoinfo : String,
   time : Date
 });
 

@@ -1,4 +1,5 @@
 //thursday.jade
+include mixins
 #thursdayInfoCollapse.colHeader
   hr
   a.collapsed(data-toggle="collapse", href="#thursdayInfoCollapseData")
@@ -7,11 +8,6 @@
 #thursdayInfoCollapseData.collapse
   each event in events
     if event.time == 'thursday'
-      h2= event.title
-      p= event.description
-      h4= event.time
+      +event(event)
       each piece in event.pieces
-        h3: a(href=piece.homepage)= piece.artist
-        p: strong= piece.title
-        img(src=piece.image, class="img-responsive")
-        hr
+        +piece(piece)

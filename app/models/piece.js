@@ -6,7 +6,7 @@ var PieceSchema = new Schema({
   title : String,
   homepage : String,
   image : String,
-  videoInfo : String,
+  videoinfo : String,
   time : Date
 });
 
