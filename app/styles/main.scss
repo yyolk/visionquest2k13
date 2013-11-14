@@ -1,6 +1,13 @@
 @import 'sass-bootstrap/lib/bootstrap';
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 
+body {
+  background-image: url('/img/dvq_big_gif_resized.gif');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
 .hero-unit {
     margin: 50px auto 0 auto;
     width: 400px;
@@ -29,10 +36,6 @@ h1 {
   }
   color: black;
 
-}
-
-img{
-  width:100%;
 }
 
 .colHeader {

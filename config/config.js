@@ -11,7 +11,7 @@ var config = {
     },
     port: port,
     development: true,
-    db: 'mongodb://localhost/visionquest2k13-development'
+    db: 'mongodb://heroku_app19361126:nlo7g2a4vhge4bpadr9sbr0ur9@ds053688.mongolab.com:53688/heroku_app19361126'
   },
 
   test: {

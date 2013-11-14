@@ -14,11 +14,9 @@ block content
               br
               |2013
           hr
-        #eventInfoCollapseData.collapse.panel.panel-collapse
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quasi rem ea praesentium et! Cupiditate, qui, quibusdam cumque quaerat magnam dolore aut totam optio neque odio veritatis consequuntur iste eligendi!    
-          img(src="http://placehold.it/650x500/00ff00/ffffff")
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quod, consequatur, accusantium nemo necessitatibus facilis voluptatibus asperiores sunt debitis iure numquam dolorum eum odit ullam doloribus accusamus eius velit repudiandae.
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, amet, pariatur nam nisi velit quisquam asperiores labore unde facilis inventore. Laboriosam, consectetur, aspernatur deleniti laudantium nesciunt saepe atque velit nobis.
+        #eventInfoCollapseData.collapse.panel.panel-collapse.in
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, minima, molestias, illum quae cum quia culpa expedita sint beatae sunt harum aliquid praesentium iusto dolores quasi. Officiis ea quidem libero!
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptates, ex, sapiente sed officiis veritatis aperiam nisi placeat earum nulla dolore accusantium amet dicta aut cupiditate aliquam aspernatur porro accusamus.
       .col-md-4#days
         #thursdayInfoCollapse.colHeader
           hr
@@ -26,29 +24,49 @@ block content
             h1 Thursday 21
           hr
         #thursdayInfoCollapseData.collapse
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quasi rem ea praesentium et! Cupiditate, qui, quibusdam cumque quaerat magnam dolore aut totam optio neque odio veritatis consequuntur iste eligendi!    
-          img(src="http://placehold.it/350x150/00ff00/ffffff")
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quod, consequatur, accusantium nemo necessitatibus facilis voluptatibus asperiores sunt debitis iure numquam dolorum eum odit ullam doloribus accusamus eius velit repudiandae.
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, amet, pariatur nam nisi velit quisquam asperiores labore unde facilis inventore. Laboriosam, consectetur, aspernatur deleniti laudantium nesciunt saepe atque velit nobis.
-          img(src="http://placehold.it/350x150/00ff00/ffffff")
+          each event in events
+            if event.time == 'thursday'
+              h2= event.title
+              p= event.description
+              h4= event.time
+              each piece in event.pieces
+                h3
+                  a(href=piece.homepage)= piece.artist
+                p
+                  strong= piece.title
+                hr
         #fridayInfoCollapse.colHeader
           hr
           a.collapsed(data-toggle="collapse", href="#fridayInfoCollapseData")
             h1 Friday 22
           hr
         #fridayInfoCollapseData.collapse
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quasi rem ea praesentium et! Cupiditate, qui, quibusdam cumque quaerat magnam dolore aut totam optio neque odio veritatis consequuntur iste eligendi!    
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quod, consequatur, accusantium nemo necessitatibus facilis voluptatibus asperiores sunt debitis iure numquam dolorum eum odit ullam doloribus accusamus eius velit repudiandae.
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ab, illo, in repellat commodi similique optio ipsum porro quidem repudiandae explicabo magnam. Numquam, voluptate magnam architecto vero pariatur quisquam explicabo!
+          each event in events
+            if event.time == 'friday'
+              h2= event.title
+              p= event.description
+              h4= event.time
+              each piece in event.pieces
+                h3
+                  a(href=piece.homepage)= piece.artist
+                p
+                  strong= piece.title
         #saturdayInfoCollapse.colHeader
           hr
           a.collapsed(data-toggle="collapse", href="#saturdayInfoCollapseData")
             h1 Saturday 23
           hr
         #saturdayInfoCollapseData.collapse
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quasi rem ea praesentium et! Cupiditate, qui, quibusdam cumque quaerat magnam dolore aut totam optio neque odio veritatis consequuntur iste eligendi!    
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quod, consequatur, accusantium nemo necessitatibus facilis voluptatibus asperiores sunt debitis iure numquam dolorum eum odit ullam doloribus accusamus eius velit repudiandae.
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ab, illo, in repellat commodi similique optio ipsum porro quidem repudiandae explicabo magnam. Numquam, voluptate magnam architecto vero pariatur quisquam explicabo!
+          each event in events
+            if event.time =='saturday'
+              h2= event.title
+              p= event.description
+              h4= event.time
+              each piece in event.pieces
+                h3
+                  a(href=piece.homepage)= piece.artist
+                p
+                  strong= piece.title
       .col-md-4
         #thirdColumnCollapseFirst.colHeader
           hr
