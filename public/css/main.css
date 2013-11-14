@@ -7631,15 +7631,10 @@ td.visible-print {
 }
 /* line 4, ../../app/styles/main.scss */
 body {
-  background-image: url("/img/dvq_big_gif_resized.gif");
+  background-image: url("/img/dvq_big_gif_resized_00ff00.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-}
-
-/* line 12, ../../app/styles/main.scss */
-.panelll {
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* line 16, ../../app/styles/main.scss */
