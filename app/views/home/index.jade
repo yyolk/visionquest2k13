@@ -5,75 +5,13 @@ block content
   .container
     .row
       .col-md-4.panelll
-        #eventInfoCollapse.colHeader
-          hr
-          a.collapsed(data-toggle="collapse", href="#eventInfoCollapseData")
-            h1
-              |DINCA 
-              br
-              |VISION QUEST 
-              br
-              |2013
-          hr
-        #eventInfoCollapseData.collapse.in
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, minima, molestias, illum quae cum quia culpa expedita sint beatae sunt harum aliquid praesentium iusto dolores quasi. Officiis ea quidem libero!
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptates, ex, sapiente sed officiis veritatis aperiam nisi placeat earum nulla dolore accusantium amet dicta aut cupiditate aliquam aspernatur porro accusamus.    
+        include first
       .col-md-4.panelll#days
-
-        #thursdayInfoCollapse.colHeader
-          hr
-          a.collapsed(data-toggle="collapse", href="#thursdayInfoCollapseData")
-            h1 Thursday 21
-          hr
-        #thursdayInfoCollapseData.collapse
-          each event in events
-            if event.time == 'thursday'
-              h2= event.title
-              p= event.description
-              h4= event.time
-              each piece in event.pieces
-                h3: a(href=piece.homepage)= piece.artist
-                p: strong= piece.title
-                img(src=piece.image, class="img-responsive")
-                hr
-        #fridayInfoCollapse.colHeader
-          hr
-          a.collapsed(data-toggle="collapse", href="#fridayInfoCollapseData")
-            h1 Friday 22
-          hr
-        #fridayInfoCollapseData.collapse
-          each event in events
-            if event.time == 'friday'
-              h2= event.title
-              p= event.description
-              h4= event.time
-              each piece in event.pieces
-                h3: a(href=piece.homepage)= piece.artist
-                p: strong= piece.title
-        #saturdayInfoCollapse.colHeader
-          hr
-          a.collapsed(data-toggle="collapse", href="#saturdayInfoCollapseData")
-            h1 Saturday 23
-          hr
-        #saturdayInfoCollapseData.collapse
-          each event in events
-            if event.time =='saturday'
-              h2= event.title
-              p= event.description
-              h4= event.time
-              each piece in event.pieces
-                h3: a(href=piece.homepage)= piece.artist
-                p: strong= piece.title
+        include thursday
+        include friday
+        include saturday
       .col-md-4.panelll
-        #thirdColumnCollapseFirst.colHeader
-          hr
-          a.collapsed(data-toggle="collapse", href="#thirdColumnCollapseFirstData")
-            h1 NOV. 21-23 MANACA STUDIOS
-          hr
-        #thirdColumnCollapseFirstData.collapse
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quasi rem ea praesentium et! Cupiditate, qui, quibusdam cumque quaerat magnam dolore aut totam optio neque odio veritatis consequuntur iste eligendi!    
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quod, consequatur, accusantium nemo necessitatibus facilis voluptatibus asperiores sunt debitis iure numquam dolorum eum odit ullam doloribus accusamus eius velit repudiandae.
-          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, amet, pariatur nam nisi velit quisquam asperiores labore unde facilis inventore. Laboriosam, consectetur, aspernatur deleniti laudantium nesciunt saepe atque velit nobis.
+        include third
 
 
 
