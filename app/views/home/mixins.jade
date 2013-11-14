@@ -1,8 +1,8 @@
 //mixins.jade
 
 mixin piece(piece)
-  p: strong= piece.title
-  p: a(href=piece.homepage)= piece.artist
+  h5: strong: em= piece.title
+  h5: a(href=piece.homepage)= piece.artist
   img(src=piece.image, class="img-responsive")
   p.small= piece.videoinfo
   hr
