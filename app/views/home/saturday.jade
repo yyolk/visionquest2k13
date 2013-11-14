@@ -1,0 +1,15 @@
+// saturday.jade
+#saturdayInfoCollapse.colHeader
+  hr
+  a.collapsed(data-toggle="collapse", href="#saturdayInfoCollapseData")
+    h1 Saturday 23
+  hr
+#saturdayInfoCollapseData.collapse
+  each event in events
+    if event.time =='saturday'
+      h2= event.title
+      p= event.description
+      h4= event.time
+      each piece in event.pieces
+        h3: a(href=piece.homepage)= piece.artist
+        p: strong= piece.title
