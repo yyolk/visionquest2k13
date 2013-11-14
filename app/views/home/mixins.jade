@@ -1,0 +1,12 @@
+//mixins.jade
+
+mixin piece(piece)
+  p: strong= piece.title
+  p: a(href=piece.homepage)= piece.artist
+  img(src=piece.image, class="img-responsive")
+  p.small= piece.videoinfo
+  hr
+
+mixin event(event)
+  h2= event.title
+  p= event.description
