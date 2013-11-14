@@ -1,0 +1,43 @@
+// second.jade
+
+include mixins
+
+//thursday
+#thursdayInfoCollapse.colHeader
+  hr
+  a.collapsed(data-toggle="collapse", href="#thursdayInfoCollapseData")
+    h1 Thursday 21
+  hr
+#thursdayInfoCollapseData.collapse
+  each event in events
+    if event.time == 'thursday'
+      +event(event)
+      each piece in event.pieces
+        +piece(piece)
+
+// friday
+#fridayInfoCollapse.colHeader
+  hr
+  a.collapsed(data-toggle="collapse", href="#fridayInfoCollapseData")
+    h1 Friday 22
+  hr
+#fridayInfoCollapseData.collapse
+  each event in events
+    if event.time == 'friday'
+      +event(event)
+      each piece in event.pieces
+        +piece(piece)
+
+
+// saturday
+#saturdayInfoCollapse.colHeader
+  hr
+  a.collapsed(data-toggle="collapse", href="#saturdayInfoCollapseData")
+    h1 Saturday 23
+  hr
+#saturdayInfoCollapseData.collapse
+  each event in events
+    if event.time =='saturday'
+      +event(event)
+      each piece in event.pieces
+        +piece(piece)
