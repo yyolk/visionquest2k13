@@ -18,8 +18,7 @@ exports.index = function(req, res){
     // console.log(events.get());
     res.render('home/index', {
       title: 'VISIONQUEST 2013 | DINCA',
-      events: events,
-      // pieces: events.pieces.find()
+      events: events
     });
   });
 };
