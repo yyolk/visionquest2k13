@@ -7631,23 +7631,28 @@ td.visible-print {
 }
 /* line 4, ../../app/styles/main.scss */
 body {
-  background-image: url("/img/dvq_big_gif_resized_00ff00.gif");
+  background-image: url("/img/dvq.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-/* line 16, ../../app/styles/main.scss */
+/* line 12, ../../app/styles/main.scss */
+.panelll {
+  text-align: justify;
+}
+
+/* line 17, ../../app/styles/main.scss */
 * {
   font-family: "Arimo";
 }
 
-/* line 20, ../../app/styles/main.scss */
+/* line 21, ../../app/styles/main.scss */
 h1 {
   text-transform: uppercase;
 }
 
-/* line 24, ../../app/styles/main.scss */
+/* line 25, ../../app/styles/main.scss */
 .colHeader hr {
   border: 6px black solid;
   width: 10%;
@@ -7656,27 +7661,27 @@ h1 {
   left: -45%;
 }
 
-/* line 31, ../../app/styles/main.scss */
+/* line 32, ../../app/styles/main.scss */
 .colHeader a {
   color: black;
 }
-/* line 32, ../../app/styles/main.scss */
+/* line 33, ../../app/styles/main.scss */
 .colHeader a:hover, .colHeader a:active, .colHeader a:visited, .colHeader a:link {
   text-decoration: none;
   color: black;
 }
 
-/* line 41, ../../app/styles/main.scss */
+/* line 42, ../../app/styles/main.scss */
 .colHeader {
   overflow: hidden;
 }
 
-/* line 45, ../../app/styles/main.scss */
+/* line 46, ../../app/styles/main.scss */
 a h1 {
   text-decoration: line-through;
 }
 
-/* line 49, ../../app/styles/main.scss */
+/* line 50, ../../app/styles/main.scss */
 a.collapsed h1 {
   text-decoration: none;
 }
