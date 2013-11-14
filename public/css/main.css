@@ -7637,10 +7637,9 @@ body {
   background-position: center center;
 }
 
-/* line 11, ../../app/styles/main.scss */
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 400px;
+/* line 12, ../../app/styles/main.scss */
+.panelll {
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* line 16, ../../app/styles/main.scss */

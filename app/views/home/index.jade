@@ -3,7 +3,7 @@ extends ../layout
 block content
   .container
     .row
-      .col-md-4
+      .col-md-4.panelll
         #eventInfoCollapse.colHeader
           hr
           a.collapsed(data-toggle="collapse", href="#eventInfoCollapseData")
@@ -14,10 +14,10 @@ block content
               br
               |2013
           hr
-        #eventInfoCollapseData.collapse.panel.panel-collapse.in
+        #eventInfoCollapseData.collapse.in
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, minima, molestias, illum quae cum quia culpa expedita sint beatae sunt harum aliquid praesentium iusto dolores quasi. Officiis ea quidem libero!
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptates, ex, sapiente sed officiis veritatis aperiam nisi placeat earum nulla dolore accusantium amet dicta aut cupiditate aliquam aspernatur porro accusamus.
-      .col-md-4#days
+      .col-md-4.panelll#days
         #thursdayInfoCollapse.colHeader
           hr
           a.collapsed(data-toggle="collapse", href="#thursdayInfoCollapseData")
@@ -68,7 +68,7 @@ block content
                   a(href=piece.homepage)= piece.artist
                 p
                   strong= piece.title
-      .col-md-4
+      .col-md-4.panelll
         #thirdColumnCollapseFirst.colHeader
           hr
           a.collapsed(data-toggle="collapse", href="#thirdColumnCollapseFirstData")
