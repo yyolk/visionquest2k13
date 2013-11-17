@@ -16,15 +16,15 @@ mixin event(event)
 
 mixin eventblock(day)
   ul
-  - var i = 0
-  each event in events
-    if event.time == day
-      - i++
-      if i==1
-        li
-          strong: a(href="#"+day+event._id)= event.title
-      else
-        li: a(href="#"+day+event._id)= event.title
+    - var i = 0
+    each event in events
+      if event.time == day
+        - i++
+        if i==1
+          li
+            strong: a(href="#"+day+event._id)= event.title
+        else
+          li: a(href="#"+day+event._id)= event.title
   each event in events
     a(name=day+event._id) 
     if event.time == day
