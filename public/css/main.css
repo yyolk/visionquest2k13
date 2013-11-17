@@ -7632,22 +7632,23 @@ td.visible-print {
 /* line 4, ../../app/styles/main.scss */
 body {
   background-image: url("/img/dvq.gif");
-  background-size: cover;
+  background-size: cover 70%;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
 }
 
-/* line 16, ../../app/styles/main.scss */
+/* line 17, ../../app/styles/main.scss */
 * {
   font-family: "Helvetica Neue" Helvetica Arial sans-serif;
 }
 
-/* line 21, ../../app/styles/main.scss */
+/* line 22, ../../app/styles/main.scss */
 h1 {
   text-transform: uppercase;
 }
 
-/* line 24, ../../app/styles/main.scss */
+/* line 26, ../../app/styles/main.scss */
 .colHeader hr {
   border: 6px black solid;
   width: 10%;
@@ -7656,27 +7657,27 @@ h1 {
   left: -45%;
 }
 
-/* line 31, ../../app/styles/main.scss */
+/* line 33, ../../app/styles/main.scss */
 .colHeader a {
   color: black;
 }
-/* line 32, ../../app/styles/main.scss */
+/* line 34, ../../app/styles/main.scss */
 .colHeader a:hover, .colHeader a:active, .colHeader a:visited, .colHeader a:link {
   text-decoration: none;
   color: black;
 }
 
-/* line 41, ../../app/styles/main.scss */
+/* line 43, ../../app/styles/main.scss */
 .colHeader {
   overflow: hidden;
 }
 
-/* line 45, ../../app/styles/main.scss */
+/* line 47, ../../app/styles/main.scss */
 a h1 {
   text-decoration: line-through;
 }
 
-/* line 49, ../../app/styles/main.scss */
+/* line 51, ../../app/styles/main.scss */
 a.collapsed h1 {
   text-decoration: none;
 }
