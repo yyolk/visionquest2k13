@@ -33,8 +33,12 @@ mixin eventblock(day)
             li: a(href="#"+day+event._id)= event.title
   each event,index in events
     if event.time == day
-      a(name=day+event._id, class="pull-right", href="#"+day+"List") 
-        small TODAY'S EVENTS &uarr;
+      if index>2
+        a(name=day+event._id, class="pull-right", href="#"+day+"List") 
+          small TODAY'S EVENTS &uarr;
+      else
+        a(name=day+event._id, class="pull-right", href="#") 
+          small.text-muted TODAY'S EVENT
       a(name="top"+event._id)
       +event(event)
       - var j = ""
