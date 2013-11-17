@@ -7638,33 +7638,38 @@ body {
 }
 
 /* line 17, ../../app/styles/main.scss */
+a:visited, a, a:hover {
+  color: #0000ff;
+}
+
+/* line 22, ../../app/styles/main.scss */
 * {
   font-family: "Helvetica Neue" Helvetica Arial sans-serif;
 }
 
-/* line 23, ../../app/styles/main.scss */
+/* line 28, ../../app/styles/main.scss */
 ::selection {
   background-color: #ff0099;
   color: #00ff00;
 }
 
-/* line 28, ../../app/styles/main.scss */
+/* line 33, ../../app/styles/main.scss */
 ::-moz-selection {
   text-background: #ff0099;
   color: #00ff00;
 }
 
-/* line 32, ../../app/styles/main.scss */
+/* line 37, ../../app/styles/main.scss */
 h1 {
   text-transform: uppercase;
 }
 
-/* line 35, ../../app/styles/main.scss */
+/* line 40, ../../app/styles/main.scss */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 800;
 }
 
-/* line 39, ../../app/styles/main.scss */
+/* line 44, ../../app/styles/main.scss */
 .colHeader hr {
   border: 6px black solid;
   width: 10%;
@@ -7673,27 +7678,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   left: -45%;
 }
 
-/* line 46, ../../app/styles/main.scss */
+/* line 51, ../../app/styles/main.scss */
 .colHeader a {
   color: black;
 }
-/* line 47, ../../app/styles/main.scss */
+/* line 52, ../../app/styles/main.scss */
 .colHeader a:hover, .colHeader a:active, .colHeader a:visited, .colHeader a:link {
   text-decoration: none;
   color: black;
 }
 
-/* line 56, ../../app/styles/main.scss */
+/* line 61, ../../app/styles/main.scss */
 .colHeader {
   overflow: hidden;
 }
 
-/* line 60, ../../app/styles/main.scss */
+/* line 65, ../../app/styles/main.scss */
 a h1 {
   text-decoration: line-through;
 }
 
-/* line 64, ../../app/styles/main.scss */
+/* line 69, ../../app/styles/main.scss */
 a.collapsed h1 {
   text-decoration: none;
 }
