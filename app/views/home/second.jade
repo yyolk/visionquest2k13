@@ -37,7 +37,7 @@ mixin eventblock(day)
         a(name=day+event._id, class="pull-right", href="#"+day+"List") 
           small TODAY'S EVENTS &uarr;
       else
-        a(name=day+event._id, class="pull-right", href="") 
+        a(name=day+event._id, class="pull-right", href="#"+day+event._id) 
           small.text-muted TODAY'S EVENT
       a(name="top"+event._id)
       +event(event)
