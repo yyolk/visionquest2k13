@@ -7640,7 +7640,7 @@ body {
 @media (max-width: 320px) {
   /* line 14, ../../app/styles/main.scss */
   body {
-    background-size: contain;
+    background-size: auto contain;
   }
 }
 /* line 23, ../../app/styles/main.scss */
