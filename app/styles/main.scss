@@ -1,5 +1,5 @@
 @import 'sass-bootstrap/lib/bootstrap';
-@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+// @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 
 body {
   background-image: url('/img/dvq.gif');
@@ -19,6 +19,16 @@ body {
   font-family: "Helvetica Neue" Helvetica Arial sans-serif;
 }
 
+::selection
+{
+  background-color: #ff0099;
+  color: #00ff00;
+}
+::-moz-selection
+{
+  text-background: #ff0099;
+  color: #00ff00;
+}
 h1 {
   text-transform: uppercase;
 }
