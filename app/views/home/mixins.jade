@@ -3,6 +3,7 @@
 mixin piece(piece)
   h5: strong: em= piece.title
   h5: a(href=piece.homepage)= piece.artist
+  p= piece.description
   img(src=piece.image, class="img-responsive")
   p.small= piece.videoinfo
   hr

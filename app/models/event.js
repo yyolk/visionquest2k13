@@ -8,7 +8,8 @@ var PieceSchema = new Schema({
   homepage : String,
   image : String,
   videoinfo : String,
-  time : Date
+  time : Date,
+  description: String
 });
 
 var EventSchema = new Schema({
