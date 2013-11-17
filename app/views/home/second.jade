@@ -39,8 +39,15 @@ mixin eventblock(day)
           small TODAY'S EVENTS &uarr;
       a(name="top"+event._id)
       +event(event)
-      each piece in event.pieces
-        a(href="#top"+event._id, class="pull-right")
+      - var j = ""
+      each piece,index in event.pieces
+        - var x = index - 1
+        if index < 1 
+          - j = "#top"+event._id
+        else
+          - j = "#jump"+event._id+x
+        
+        a(name="jump"+event._id+index, href=j, class="pull-right")
           small.text-muted JUMP &uarr;
         +piece(piece)
 
