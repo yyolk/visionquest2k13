@@ -17,18 +17,26 @@ mixin event(event)
 mixin eventblock(day)
   ul(class="list-inline")
     - var i = 0
-    each event in events
-      div(id=day+"List")
+    each event in events 
       if event.time == day
         - i++
-        if i==1
-          li
-            strong: a(href="#"+day+event._id)= event.title
-        else
-          li: a(href="#"+day+event._id)= event.title
+    if i > 1
+      - i = 0
+      each event in events
+        div(id=day+"List")
+        if event.time == day
+
+          - i++
+          if i==1
+            li
+              strong: a(href="#"+day+event._id)= event.title
+          else
+            li: a(href="#"+day+event._id)= event.title
   each event in events
     if event.time == day
-      a(name=day+event._id, class="pull-right", href="#"+day+"List") &uarr;
+      if i > 1
+        a(name=day+event._id, class="pull-right", href="#"+day+"List") 
+          small BACK &uarr;
       +event(event)
       each piece in event.pieces
         +piece(piece)
