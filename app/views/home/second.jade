@@ -41,7 +41,7 @@ mixin eventblock(day)
       +event(event)
       each piece in event.pieces
         a(href="#top"+event._id, class="pull-right")
-          small.text-muted JUMP BACK
+          small.text-muted JUMP &uarr;
         +piece(piece)
 
 
