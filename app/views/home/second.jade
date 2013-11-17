@@ -42,7 +42,7 @@ mixin eventblock(day)
       each piece,index in event.pieces
         - var x = index - 1
         if index < 1 
-          - j = "#"+day+"List"
+          - j = "#"+day+event._id
         else
           - j = "#jump"+event._id+x
         
