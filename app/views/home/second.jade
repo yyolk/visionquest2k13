@@ -15,9 +15,10 @@ mixin event(event)
   p!= event.description
 
 mixin eventblock(day)
-  ul
+  ul(class="list-inline")
     - var i = 0
     each event in events
+      div(id=day+"List")
       if event.time == day
         - i++
         if i==1
@@ -26,8 +27,8 @@ mixin eventblock(day)
         else
           li: a(href="#"+day+event._id)= event.title
   each event in events
-    a(name=day+event._id) 
     if event.time == day
+      a(name=day+event._id, class="pull-right", href="#"+day+"List") &uarr;
       +event(event)
       each piece in event.pieces
         +piece(piece)
