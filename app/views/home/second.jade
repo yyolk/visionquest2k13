@@ -1,6 +1,37 @@
 // second.jade
 
-include mixins
+//- include mixins
+
+
+mixin piece(piece)
+  h5: a(href=piece.homepage)= piece.artist
+  h5: strong: em= piece.title
+  p!= piece.description
+  img(src=piece.image, class="img-responsive")
+  p.small= piece.videoinfo
+
+mixin event(event)
+  h4= event.title
+  p!= event.description
+
+mixin eventblock(day)
+  ul
+  - var i = 0
+  each event in events
+    if event.time == day
+      - i++
+      if i==1
+        li
+          strong: a(href="#"+day+event._id)= event.title
+      else
+        li: a(href="#"+day+event._id)= event.title
+  each event in events
+    a(name=day+event._id) 
+    if event.time == day
+      +event(event)
+      each piece in event.pieces
+        +piece(piece)
+
 
 //thursday
 #thursdayInfoCollapse.colHeader
@@ -9,11 +40,7 @@ include mixins
     h1 Thursday 21
   hr
 #thursdayInfoCollapseData.collapse
-  each event in events
-    if event.time == 'thursday'
-      +event(event)
-      each piece in event.pieces
-        +piece(piece)
+  +eventblock("thursday")
 
 // friday
 #fridayInfoCollapse.colHeader
@@ -22,11 +49,7 @@ include mixins
     h1 Friday 22
   hr
 #fridayInfoCollapseData.collapse
-  each event in events
-    if event.time == 'friday'
-      +event(event)
-      each piece in event.pieces
-        +piece(piece)
+  +eventblock("friday")
 
 
 // saturday
@@ -36,8 +59,4 @@ include mixins
     h1 Saturday 23
   hr
 #saturdayInfoCollapseData.collapse
-  each event in events
-    if event.time =='saturday'
-      +event(event)
-      each piece in event.pieces
-        +piece(piece)
+  +eventblock("saturday")
