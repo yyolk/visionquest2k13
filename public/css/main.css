@@ -7659,7 +7659,12 @@ h1 {
   text-transform: uppercase;
 }
 
-/* line 36, ../../app/styles/main.scss */
+/* line 35, ../../app/styles/main.scss */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 800;
+}
+
+/* line 39, ../../app/styles/main.scss */
 .colHeader hr {
   border: 6px black solid;
   width: 10%;
@@ -7668,27 +7673,27 @@ h1 {
   left: -45%;
 }
 
-/* line 43, ../../app/styles/main.scss */
+/* line 46, ../../app/styles/main.scss */
 .colHeader a {
   color: black;
 }
-/* line 44, ../../app/styles/main.scss */
+/* line 47, ../../app/styles/main.scss */
 .colHeader a:hover, .colHeader a:active, .colHeader a:visited, .colHeader a:link {
   text-decoration: none;
   color: black;
 }
 
-/* line 53, ../../app/styles/main.scss */
+/* line 56, ../../app/styles/main.scss */
 .colHeader {
   overflow: hidden;
 }
 
-/* line 57, ../../app/styles/main.scss */
+/* line 60, ../../app/styles/main.scss */
 a h1 {
   text-decoration: line-through;
 }
 
-/* line 61, ../../app/styles/main.scss */
+/* line 64, ../../app/styles/main.scss */
 a.collapsed h1 {
   text-decoration: none;
 }
