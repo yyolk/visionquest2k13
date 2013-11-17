@@ -40,6 +40,8 @@ mixin eventblock(day)
       a(name="top"+event._id)
       +event(event)
       each piece in event.pieces
+        a(href="#top"+event._id, class="pull-right")
+          small.text-muted JUMP BACK
         +piece(piece)
 
 
