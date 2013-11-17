@@ -36,9 +36,12 @@ mixin eventblock(day)
     if event.time == day
       if i > 1
         a(name=day+event._id, class="pull-right", href="#"+day+"List") 
-          small BACK &uarr;
+          small TODAY'S EVENTS &uarr;
+      a(name="top"+event._id)
       +event(event)
       each piece in event.pieces
+        a(href="#top"+event._id, class="pull-right")
+          small TOP&uarr;
         +piece(piece)
 
 
