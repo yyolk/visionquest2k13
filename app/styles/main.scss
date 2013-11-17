@@ -10,6 +10,12 @@ body {
   // text-shadow: 0px 2px 5px #00ff00;
 }
 
+@media (max-width: 320px) {
+  body{
+    background-size:cover;
+  }
+}
+
 .panelll{
   // background-color: rgba(255,255,255,0.2);
 }
