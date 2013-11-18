@@ -16,7 +16,8 @@ exports.index = function(req, res){
   var keenIO = require('keen.io');
 
   // Configure instance. Only projectId and writeKey are required to send data.
-  if(process.env=="production"){
+  // console.log(res.locals);
+  if(res.locals.env.production){
     var keen = keenIO.configure({
         projectId: process.env['KEEN_PROJECT_ID'],
         writeKey: process.env['KEEN_WRITE_KEY']
