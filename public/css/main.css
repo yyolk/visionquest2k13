@@ -7650,29 +7650,29 @@ a:visited, a, a:hover {
   color: #0000ff;
 }
 
-/* line 36, ../../app/styles/main.scss */
+/* line 32, ../../app/styles/main.scss */
 ::selection {
   background-color: #ff0099;
   color: #00ff00;
 }
 
-/* line 41, ../../app/styles/main.scss */
+/* line 37, ../../app/styles/main.scss */
 ::-moz-selection {
   text-background: #ff0099;
   color: #00ff00;
 }
 
-/* line 45, ../../app/styles/main.scss */
+/* line 41, ../../app/styles/main.scss */
 h1 {
   text-transform: uppercase;
 }
 
-/* line 48, ../../app/styles/main.scss */
+/* line 44, ../../app/styles/main.scss */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 800;
 }
 
-/* line 52, ../../app/styles/main.scss */
+/* line 48, ../../app/styles/main.scss */
 .colHeader hr {
   border: 6px black solid;
   width: 10%;
@@ -7681,27 +7681,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   left: -45%;
 }
 
-/* line 59, ../../app/styles/main.scss */
+/* line 55, ../../app/styles/main.scss */
 .colHeader a {
   color: black;
 }
-/* line 60, ../../app/styles/main.scss */
+/* line 56, ../../app/styles/main.scss */
 .colHeader a:hover, .colHeader a:active, .colHeader a:visited, .colHeader a:link {
   text-decoration: none;
   color: black;
 }
 
-/* line 69, ../../app/styles/main.scss */
+/* line 65, ../../app/styles/main.scss */
 .colHeader {
   overflow: hidden;
 }
 
-/* line 73, ../../app/styles/main.scss */
+/* line 69, ../../app/styles/main.scss */
 a h1 {
   text-decoration: line-through;
 }
 
-/* line 77, ../../app/styles/main.scss */
+/* line 73, ../../app/styles/main.scss */
 a.collapsed h1, a.dinca h1 {
   text-decoration: none;
 }
