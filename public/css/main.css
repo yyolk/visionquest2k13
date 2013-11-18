@@ -7640,42 +7640,44 @@ body {
 @media (max-width: 320px) {
   /* line 14, ../../app/styles/main.scss */
   body {
-    background-size: auto contain;
+    background-size: cover;
+    background-image: url("/img/dvq1f.png");
+    background-attachment: normal;
   }
 }
-/* line 23, ../../app/styles/main.scss */
+/* line 25, ../../app/styles/main.scss */
 a:visited, a, a:hover {
   color: #0000ff;
 }
 
-/* line 28, ../../app/styles/main.scss */
+/* line 30, ../../app/styles/main.scss */
 * {
   font-family: "Helvetica Neue" Helvetica Arial sans-serif;
 }
 
-/* line 34, ../../app/styles/main.scss */
+/* line 36, ../../app/styles/main.scss */
 ::selection {
   background-color: #ff0099;
   color: #00ff00;
 }
 
-/* line 39, ../../app/styles/main.scss */
+/* line 41, ../../app/styles/main.scss */
 ::-moz-selection {
   text-background: #ff0099;
   color: #00ff00;
 }
 
-/* line 43, ../../app/styles/main.scss */
+/* line 45, ../../app/styles/main.scss */
 h1 {
   text-transform: uppercase;
 }
 
-/* line 46, ../../app/styles/main.scss */
+/* line 48, ../../app/styles/main.scss */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 800;
 }
 
-/* line 50, ../../app/styles/main.scss */
+/* line 52, ../../app/styles/main.scss */
 .colHeader hr {
   border: 6px black solid;
   width: 10%;
@@ -7684,27 +7686,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   left: -45%;
 }
 
-/* line 57, ../../app/styles/main.scss */
+/* line 59, ../../app/styles/main.scss */
 .colHeader a {
   color: black;
 }
-/* line 58, ../../app/styles/main.scss */
+/* line 60, ../../app/styles/main.scss */
 .colHeader a:hover, .colHeader a:active, .colHeader a:visited, .colHeader a:link {
   text-decoration: none;
   color: black;
 }
 
-/* line 67, ../../app/styles/main.scss */
+/* line 69, ../../app/styles/main.scss */
 .colHeader {
   overflow: hidden;
 }
 
-/* line 71, ../../app/styles/main.scss */
+/* line 73, ../../app/styles/main.scss */
 a h1 {
   text-decoration: line-through;
 }
 
-/* line 75, ../../app/styles/main.scss */
+/* line 77, ../../app/styles/main.scss */
 a.collapsed h1, a.dinca h1 {
   text-decoration: none;
 }
