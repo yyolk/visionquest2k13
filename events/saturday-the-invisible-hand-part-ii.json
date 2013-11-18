@@ -1,0 +1,82 @@
+{
+    "_id": {
+        "$oid": "52881916e4b0b47185d53af3"
+    },
+    "title": "THE INVISIBLE HAND: PART 2",
+    "time": "saturday",
+    "description": "(TRT: 73 min)",
+    "pieces": [
+        {
+            "artist": "Rebecca Meyers",
+            "title": "Murmurations",
+            "videoinfo": "Boston, MA | 2013 | 6 min | 16mm ",
+            "homepage": "mailto:rammeyers@gmail.com",
+            "description": "A charm; sledge; dissimulation. Descent and watch. Avian voices link gesture and snowfall, macro views of whiskered branches and furry firs.  (RM)",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Rebecca-Meyers-Murmurations.png"
+        },
+        {
+            "artist": "Deborah Stratman",
+            "title": "Immortal, Suspended",
+            "videoinfo": "Chicago, IL | 2013 | 6 min | video | sound",
+            "homepage": "http://pythagorasfilm.com",
+            "description": "The idea of suspension is evoked on shifting registers – as levitation, cessation, preservation, and suspense – and located in sites whose identities slip as we track through a space within a space.  (DS)",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Deborah-Stratman-Immortal-Suspended.jpg"
+        },
+        {
+            "artist": "Stephanie Barber",
+            "title": "For W.G. Sebald (Travel Without Travel)",
+            "videoinfo": "Baltimore, MA | 5 min | 2011 | video | sound",
+            "homepage": "http://stephaniebarber.com",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Stephanie-Barber-For-WG-Sebald-Travel-Without-Travel.jpg",
+            "description": "A collection of titles from a honeymoon trip around the world in the early 1950s. The poetics of the words assert themselves, diminish the images which are tethered, physically and as regards our understanding of place, to the names of the sights. The entirety becomes a moving and concrete poem. From JHANA AND THE RATS OF JAMES OLDS series.  (SB)"
+        },
+        {
+            "artist": "Basma Alsharif",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Basma-Alsharif-Farther-Than-The-Eye-Can-See.jpg",
+            "title": "Farther Than The Eye Can See",
+            "videoinfo": "USA/Palestine | 2012 | 13 min | video | sound",
+            "homepage": "http://basmalsharif.com",
+            "description": "Basma explores the human condition in relation to the subjective experience of Political history. She creates complex soundtracks and employs various languages, texts, images, mediums and formal strategies to transmit information through the visceral experience of cinema.  (BA)"
+        },
+        {
+            "artist": "Jasper Ellings",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Jasper-Elings-Sharing-A-Beautiful-Sunset.jpg",
+            "title": "Sharing A Beautiful Sunset",
+            "videoinfo": "The Hague, Netherlands | 2009 | 1 min | video | sound",
+            "description": "A video composed with shared sunset photos found with Google Image Search.  (JE)",
+            "homepage": "http://jasperelings.info"
+        },
+        {
+            "artist": "Sarah Christman",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Sarah-Christman-Gowanus-Canal.jpg",
+            "title": "Gowanus Canal",
+            "videoinfo": "Brooklyn, NY | 2013 | 7 min | 16mm (to HD) | sound",
+            "homepage": "http://sarahchristman.com",
+            "description": "Just below the surface of one of the most contaminated urban waterways in the United States, microorganisms thrive amidst the toxic waste.  (SC)"
+        },
+        {
+            "artist": "Chris Kennedy",
+            "title": "Brimstone Line",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Chris-Kennedy-Brimstone-Line.jpg",
+            "videoinfo": "Toronto, Canada | 2013 | 10 min | 16mm | color | sound",
+            "homepage": "http://theworldviewed.com",
+            "description": "Three grids are placed along the Credit River in rural Ontario. They become devices through which the stationary camera, pointing upstream, delineates the landscape. They motivate the movement of the zoom, which intensifies our sense of the field of view, narrowing vision and flattening space. The river, framed momentarily, flows past. Financial assistance provided by the Toronto Arts Council.  (CK)"
+        },
+        {
+            "artist": "Zahid Jiwa",
+            "title": "As Falesias",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Zahid-Jiwa-As-Falesias.jpg",
+            "videoinfo": "Vancouver, Canada | 2013 | 5 min | video | color | sound",
+            "homepage": "http://newknowledge.info",
+            "description": "I wake up from Zannone, but the sea, cupping this feeble rock, is still washing through my dreams each night. No matter what shore I reach.  (ZJ)"
+        },
+        {
+            "artist": "Jesse McLean",
+            "title": "The Invisible World",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Jesse-McLean-The-Invisible-World.jpg",
+            "videoinfo": "Iowa City, IA | 2012 | 20 min | video | sound",
+            "homepage": "http://jessemclean.com",
+            "description": "The present world is packed with objects that evidence human productivity, yet the desire to possess things remains somewhat mysterious. Lifeless objects become imbued with emotional significance, and possessions linked with personal identities, even as these objects bear a cool and distant witness to human struggles. The rapidly arriving future portends an intangible new world of virtual experience. How will we relate our materialist tendencies in this new world of immateriality.  (JM)"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "_id": {
+        "$oid": "528818f1e4b0b47185d53af2"
+    },
+    "title": "THE INVISIBLE HAND: PART 1",
+    "time": "saturday",
+    "description": "(TRT: 87 min)",
+    "pieces": [
+        {
+            "artist": "Laida Lertxundi",
+            "title": "A Room Called Heaven",
+            "videoinfo": "LA, CA | 2012 | 11 min | 16mm | sound",
+            "homepage": "http://laidalertxundi.com",
+            "description": "American plains and high altitudes assembled in a B-roll structure take us to a place of sounds*. Plans américains show color and temperature shifts while an emotional room tone is sustained for the length of a 400ft camera roll.  (LL)",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Laida-Lertxundi-A-Room-Called-Heaven.jpg"
+        },
+        {
+            "artist": "Jennifer Reeder",
+            "title": "Tears Can Not Restore Her: Therefore, I Weep",
+            "videoinfo": "Chicago, IL | 2011 | 10 min | video | sound",
+            "homepage": "http://thejenniferreeder.com",
+            "description": "I construct personal stories about relationships, trauma and coping. My award-winning narratives are unconventional and borrow from a range of forms including after school specials, amateur music videos and magical realism.  (JR)",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Tears-Can-Not-Restore-Her-Therefore-I-Weep-Jennifer-Reeder.jpg"
+        },
+        {
+            "artist": "Lori Felker w/ Implodes",
+            "title": "Scattered in the Wind",
+            "videoinfo": "Chicago, IL | 2013 | 6 min | video | sound",
+            "homepage": "http://felkercommalori.com",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Scattered-in-the-Wind-Lori-Felker.png",
+            "description": "Lori Felker is an artist/filmmaker whose work focuses on the ways in which we process, share, and disseminate information, via screens, dreams, gestures, games, and dialogue. By employing and pushing these structures, she attempts to study the ineloquent, oppositional, delusional, frustrating, and chaotic qualities of human interaction.  Lori loves to collaborate and when Implodes (Kranky Records, Chicago) asked Lori to make a video for their awesome song, she said yes.  (LF)"
+        },
+        {
+            "artist": "Jennifer Reeves",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Jennifer-Reeves-Strawberries-in-the-Summertime.jpeg",
+            "title": "Strawberries in the Summertime",
+            "videoinfo": "NYC, NY | 2013 | 15 min | video | sound",
+            "homepage": "http://jenniferreevesfilm.com/pages/index.php",
+            "description": "A two and a half year old boy revels in all things tiny and huge on and around a farm. His father supports his exuberant and insatiable curiosity of new experiences– from wall climbing to discovering the natural world. As a father-son bond grows, the mother with camera observes, hangs back, dives into a solitary landscape and returns.  (JR)"
+        },
+        {
+            "artist": "Shana Moulton",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Shana-Moulton-Unique-Boutique.jpg",
+            "title": "Unique Boutique",
+            "videoinfo": "SF, CA | 2013 | 9 min | video | sound",
+            "description": "In Unique Boutique (2013), Cynthia experiences an identity crisis triggered by shopping. Unable to afford most things in the shop, she purchases a bubble-wrap decoration with a mysterious function.  (SM)",
+            "homepage": "http://shanamoulton.info"
+        },
+        {
+            "artist": "Andrew Lampert",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Andrew-Lampert-Taste-Test.jpg",
+            "title": "Taste Test",
+            "videoinfo": "NYC, NY | 2012 | 2 min | video | sound",
+            "homepage": "http://andrewlampert.net",
+            "description": "This is a 45rpm motion picture. \"Hit it and quit it.\" — James Brown.  (AL)"
+        },
+        {
+            "artist": "Lucas Millard & Kate Stryker",
+            "title": "Ananda",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Lucas-Millard-Kate-Stryker-Ananda.png",
+            "videoinfo": "NYC, NY | 2013 | 11 min | video | sound",
+            "homepage": "http://bottomlesswellfilms.com",
+            "description": "Ananda travels from the streets of Kathmandu to the blood-bathed temple of Dakshinkali. (KS)"
+        },
+        {
+            "artist": "Sam Easterson",
+            "title": "Burrow-Cams",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Sam-Easterson-Burrow-Cams.jpg",
+            "videoinfo": "Hartford. CT | 2012 | 3 min | video | sound",
+            "homepage": "http://vdb.org/titles/burrow-cams",
+            "description": "<p>Burrow-Cams features footage from cameras that have been placed inside underground animal habitats (dens, burrows, etc.). Animals showcased include: burrowing owl, black-footed ferret, porcupine, badger, prairie vole, swift fox, deer mouse, and black tailed prairie dog.  (vdb.org)</p><p>Presented by the Video Data Bank.</p>"
+        },
+        {
+            "artist": "Ben Russell",
+            "title": "Let Us Persevere In What We Have Resolved Before We Forgot",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Ben-Russell-Let-Us-Persevere-In-What-We-Have-Resolved-Before-We-Forgot.jpg",
+            "videoinfo": "Paris, France | 2013 | 20 min | 16mm on video | sound",
+            "homepage": "http://dimeshow.com",
+            "description": "<p>\"John Frum prophesied the occurrence of a cataclysm in which Tanna would become flat, the volcanic mountains would fall and fill the river-beds to form fertile plains, and Tanna would be joined to the neighbouring islands of Eromanga and Aneityum to form a new island. Then John Frum would reveal himself, bringing in a reign of bliss, the natives would get back their youth and there would be no sickness; there would be no need to care for gardens, trees or pigs. The Whites would go; John Frum would set up schools to replace mission schools, and would pay chiefs and teachers.\"  (Peter Worsley) </p><p>Presented by the Video Data Bank.</p>"
+        }
+    ]
+}

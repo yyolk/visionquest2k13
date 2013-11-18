@@ -1,0 +1,96 @@
+{
+    "_id": {
+        "$oid": "52881888e4b0b47185d53af0"
+    },
+    "title": "SPUME & SPINDRIFT PART I",
+    "time": "friday",
+    "description": "(TRT: 66 min)",
+    "pieces": [
+        {
+            "artist": "Mike Stoltz",
+            "title": "With Pluses and Minuses",
+            "homepage": "http://mikestoltz.org",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Mike-Stoltz-With-Pluses-and-Minuses.jpg",
+            "videoinfo": "Los Angeles, CA | 2013 | 5 min | 16mm | sound",
+            "description": "This morning the window blew its glass onto my face. Real morning with pluses and minuses (my symbols for truth).  (MS)",
+            "time": "1st"
+        },
+        {
+            "artist": "Alexander Stewart & Lilli Carré",
+            "title": "Crux Film",
+            "homepage": "http://alexanderstewart.org",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Alexander-Stewart-Lilli-Carré-Crux-Film.jpg",
+            "videoinfo": "Chicago, IL | 2013 | 5 min | color | sound",
+            "time": "2nd",
+            "description": "Precarious and fluid arrangements constantly interrupt one another in a montage of waiting, anticipating, and transitioning forms. Arrangements of marks and geometric forms are faced with unresolved states. Objects struggle to maintain their shape, stay upright, or avoid disappearing.  (AS & LC)"
+        },
+        {
+            "artist": "Michael Robinson",
+            "title": "The Dark, Krystal",
+            "homepage": "http://poisonberries.net",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Michael-Robinson-The-Dark-Krystal.jpg",
+            "videoinfo": "West Danby, NY | 2013 | 8 min | video",
+            "description": "The cabin is on fire!  Krystle can't stop crying, Alexis won't stop drinking, and the fabric of existence hangs in the balance, again and again and again.  (MR)",
+            "time": "3rd"
+        },
+        {
+            "artist": "Michael Wawzenek",
+            "title": "Breakbone Fever",
+            "homepage": "mailto:mwawzenek@gmail.com",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Michael-Wawzenek-Breakbone-Fever.png",
+            "videoinfo": "2013 | Chicago, IL | 7 min | video | sound",
+            "description": "An all consuming fever takes its toll as it transfixes and grows.  (MW)",
+            "time": "4th"
+        },
+        {
+            "artist": "Esther Urlus",
+            "title": "Deep Red",
+            "videoinfo": "Rotterdam | 2012 | 7 min | 16mm | silent",
+            "homepage": "http://estherurlus.hotglue.me",
+            "description": "Dense, addictive, multi-pass, colour printing with trees shorn of their leaves transformed into thirty six layer deep technicolour.  (EU)",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Esther-Urlus-Deep-Red.jpg",
+            "time": "5th"
+        },
+        {
+            "artist": "Brenna Murphy",
+            "title": "Tomutonttu ~ Siat Nousevat Vuorelle",
+            "videoinfo": "Portland | 2012 | 5 min | video | sound",
+            "homepage": "http://bmruernpnhay.com",
+            "description": "Music by Tomutonttu from Elävänä Planeetalla 12\" on New Images 2011. Video by Brenna Murphy.  (BM)",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Brenna-Murphy-Tomutonttu-Siat-Nousevat-Vuorelle.jpg",
+            "time": "6th"
+        },
+        {
+            "artist": "Sabrina Ratté",
+            "title": "AURAE",
+            "videoinfo": "2012 | Montreal, Canada | 2.5 min | video | sound",
+            "homepage": "http://sabrinaratte",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Sabrina-Ratté-AURAE.jpg",
+            "description": "<em>AURAE</em> is a video based on a photograph manipulated digitally and then transformed through a video synthesizer. The architectural forms constantly falling apart and their changing textures evoke the ephemeral nature of perception, and suggest the idea of time and its influence on this perception. Music by Roger Tellier-Craig  (SR)"
+        },
+        {
+            "artist": "Stephani Barber",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/stephanie-barber-flower-the-boy-the-librarian.jpg",
+            "title": "Flower, the Boy, the Librarian",
+            "videoinfo": "Baltimore, MA | 1996 | 6 min | 16mm | color | sound",
+            "homepage": "http://stephaniebarber.com",
+            "description": "For those who find listing and repetition romantic. A near perfect structure. Three acts, an auditory red herring and classic love story.  (SB)"
+        },
+        {
+            "artist": "Shambhavi kaul",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Shambhavi-Kaul-Mount-Song.jpg",
+            "title": "Mount Soung",
+            "videoinfo": "Mumbai/Durham, NC | 2013 | 9 min | video | sound",
+            "description": "A current runs underneath. It creeps under the door, makes its way into the cracks, revealing, obfuscating or breaking as clouds in the sky. Mountain, cave, river, forest and trap door; martial gestures reiterated, stripped and rendered. A storm blows through. A parrot comments from a flowering branch. Here, surfaces of set-constructions are offered for our attachments.  (SK)",
+            "homepage": "http://shambhavikaul.com/open/bridge.html"
+        },
+        {
+            "artist": "Kerry Laitala",
+            "image": "http://dinca.org/wp-content/uploads/2013/11/Kerry-Laitala-Afterimage-A-Flicker-of-Life-Version-1.jpg",
+            "title": "Afterimage: A Flicker of Life, Version 1",
+            "videoinfo": "San Francisco, CA | 2010 | 12 min | 16mm | sound",
+            "homepage": "http://kerrylaitala.net",
+            "description": "\"Afterimage: A Flicker of Life\" incorporates etchings, archival photographs, inter-titles, found footage and live action material to create cinematic sequences of motion analysis. Beginning with an animated wood-cut of a beating heart, \"Afterimage- A Flicker of Life\" traces a trajectory of 19th Century photographer Edweard Muybridge and scientist Étienne-Jules Marey's works using the artifacts that they left behind.  (KL)"
+        }
+    ]
+}
