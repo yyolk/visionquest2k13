@@ -4,11 +4,11 @@
 
 
 mixin piece(piece)
+  img(src=piece.image, class="img-responsive")
   h5: a(href=piece.homepage)= piece.artist
   h5: strong: em= piece.title
-  p!= piece.description
-  img(src=piece.image, class="img-responsive")
   p.small= piece.videoinfo
+  p!= piece.description
 
 mixin event(event)
   h4= event.title
