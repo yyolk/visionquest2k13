@@ -7650,11 +7650,6 @@ a:visited, a, a:hover {
   color: #0000ff;
 }
 
-/* line 30, ../../app/styles/main.scss */
-* {
-  font-family: "Helvetica Neue" Helvetica Arial sans-serif;
-}
-
 /* line 36, ../../app/styles/main.scss */
 ::selection {
   background-color: #ff0099;
