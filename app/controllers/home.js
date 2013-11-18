@@ -13,7 +13,7 @@ exports.index = function(req, res){
   //   });
   // });
 
-  Event.find(function(err, events){
+  Event.find().sort({"time": 1, "_id": 1}).exec(function(err, events){
     if(err) throw new Error(err);
     // console.log(events.get());
     res.render('home/index', {
