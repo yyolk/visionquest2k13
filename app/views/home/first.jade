@@ -1,9 +1,9 @@
 //first.jade
 #eventInfoCollapse.colHeader
   hr
-  a.collapsed(data-toggle="collapse"
+  a.collapsed.dinca(data-toggle="collapse"
   href="#eventInfoCollapseData"
-  id="dinca")
+  id="dincaheader")
     h1
       |DINCA 
       br
@@ -11,7 +11,7 @@
       br
       |2013
   hr
-#eventInfoCollapseData.collapse.in
+#eventInfoCollapseData.collapse#dinca
   p
     a(href="http://dinca.org", target="_blank") DINCA 
     | | #VQ13 &rarr; <a href="http://twitter.com/dincablog" target="_blank">Twitter</a>

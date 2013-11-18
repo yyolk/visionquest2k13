@@ -7705,6 +7705,6 @@ a h1 {
 }
 
 /* line 75, ../../app/styles/main.scss */
-a.collapsed h1 {
+a.collapsed h1, a.dinca h1 {
   text-decoration: none;
 }
