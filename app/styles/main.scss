@@ -11,9 +11,9 @@ body {
 
 @media (max-width: 320px) {
   body{
-    background-size:cover;
+    background-size: cover;
     background-image: url('/img/dvq1f.png');
-    background-attachment: normal;
+    background-attachment: fixed;
   }
 }
 
