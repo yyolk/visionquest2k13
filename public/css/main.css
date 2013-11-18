@@ -7648,37 +7648,38 @@ body {
 /* line 24, ../../app/styles/main.scss */
 a:visited, a {
   color: #000000;
+  text-decoration: underline;
 }
 
-/* line 27, ../../app/styles/main.scss */
+/* line 28, ../../app/styles/main.scss */
 a:hover {
   color: #000;
   background-color: #00ff00;
 }
 
-/* line 35, ../../app/styles/main.scss */
+/* line 36, ../../app/styles/main.scss */
 ::selection {
   background-color: #ff0099;
   color: #00ff00;
 }
 
-/* line 40, ../../app/styles/main.scss */
+/* line 41, ../../app/styles/main.scss */
 ::-moz-selection {
   text-background: #ff0099;
   color: #00ff00;
 }
 
-/* line 44, ../../app/styles/main.scss */
+/* line 45, ../../app/styles/main.scss */
 h1 {
   text-transform: uppercase;
 }
 
-/* line 47, ../../app/styles/main.scss */
+/* line 48, ../../app/styles/main.scss */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 800;
 }
 
-/* line 51, ../../app/styles/main.scss */
+/* line 52, ../../app/styles/main.scss */
 .colHeader hr {
   border: 6px black solid;
   width: 10%;
@@ -7687,32 +7688,32 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   left: -45%;
 }
 
-/* line 58, ../../app/styles/main.scss */
+/* line 59, ../../app/styles/main.scss */
 .colHeader a {
   color: black;
 }
-/* line 59, ../../app/styles/main.scss */
+/* line 60, ../../app/styles/main.scss */
 .colHeader a:hover, .colHeader a:active, .colHeader a:visited, .colHeader a:link {
   text-decoration: none;
   color: black;
 }
 
-/* line 68, ../../app/styles/main.scss */
+/* line 69, ../../app/styles/main.scss */
 .colHeader {
   overflow: hidden;
 }
 
-/* line 72, ../../app/styles/main.scss */
+/* line 73, ../../app/styles/main.scss */
 img.img-responsive {
   min-width: 100%;
 }
 
-/* line 75, ../../app/styles/main.scss */
+/* line 76, ../../app/styles/main.scss */
 a h1 {
   text-decoration: line-through;
 }
 
-/* line 79, ../../app/styles/main.scss */
+/* line 80, ../../app/styles/main.scss */
 a.collapsed h1, a.dinca h1 {
   text-decoration: none;
 }
