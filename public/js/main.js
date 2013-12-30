@@ -4,7 +4,7 @@ require([
 function ( bootstrap, $ ) {
     'use strict';
     // jquery(".page-header").css('color', 'red');
-    $('#dinca').collapse('show');
+    // $('#dinca').collapse('show');
     
     $('#dincaheader').click(function(){
     //   toggleit=!toglleit;
