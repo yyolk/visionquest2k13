@@ -1,17 +1,14 @@
 {
-    "_id": {
-        "$oid": "52881916e4b0b47185d53af3"
-    },
     "title": "THE INVISIBLE HAND: PART 2",
     "time": "saturday",
     "description": "(TRT: 73 min)",
     "pieces": [
         {
             "artist": "Rebecca Meyers",
-            "title": "Murmurations",
+            "title": "murmurations",
             "videoinfo": "Boston, MA | 2013 | 6 min | 16mm ",
             "homepage": "mailto:rammeyers@gmail.com",
-            "description": "A charm; sledge; dissimulation. Descent and watch. Avian voices link gesture and snowfall, macro views of whiskered branches and furry firs.  (RM)",
+            "description": "A charm; a siege; dissimulation. Descent and watch. Avian voices link gesture and snowfall, macro views of whiskered branches and furry firs.  (RM)",
             "image": "http://dinca.org/wp-content/uploads/2013/11/Rebecca-Meyers-Murmurations.png"
         },
         {

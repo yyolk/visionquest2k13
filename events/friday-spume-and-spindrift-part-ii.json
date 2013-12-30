@@ -1,13 +1,11 @@
 {
-    "_id": {
-        "$oid": "528818b4e4b0b47185d53af1"
-    },
+    "order": 3,
     "title": "SPUME & SPINDRIFT PART II",
     "time": "friday",
     "description": "(TRT: 63 min)",
     "pieces": [
         {
-            "artist": "Tomonari Nishikawa",
+            "artist": "Tomonari Nishikawa ",
             "title": "457 Broadway",
             "videoinfo": "Vestal, NY | 5 min | 16mm | sound",
             "homepage": "http://www.tomonarinishikawa.com",
