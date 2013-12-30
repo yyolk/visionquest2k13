@@ -14,6 +14,8 @@ function ( bootstrap, $ ) {
       
     });
 
+    // $("#thirdColumnCollapseFirstData").collapse('show');
+
     // $('#dincaheader h1').css('text-decoration', 'strike-through');
     //start();
 });
